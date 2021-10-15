@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+main {
+    width: 50%;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.firstpanel {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+    width: 100%;
+}
+.plan {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+}
+.benefits {
+    background-color: hsla(179, 62%, 43%, 0.842);
+    padding: 30px;
+}
+.secondpanel {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.plan {
+    width: 50%;
+    margin: 0;
+}
+.benefits {
+    width: 50%;
+}
+.heading {
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.guarantee {
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.tutorial {
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+h3 {
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.payment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+.dollar {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.duration {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: hsla(203, 44%, 93%, 0.555);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.access {
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    box-shadow: 10px 15px 30px hsl(206deg 23% 23% / 38%);
+}
+ul {
+    padding: 0;
+    line-height: 5px;
+    color: hsla(203, 44%, 93%, 0.74);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+@media (max-width: 1000px) {
+    main {
+        width: 90%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .firstpanel {
+        padding: 25px;
+    }
+    .secondpanel {
+        flex-direction: column;
+    }
+    .plan {
+        width: 100%;
+    }
+    .benefits {
+        width: 100%;
+    }
+    button {
+        text-align: center;
+    }
+}
